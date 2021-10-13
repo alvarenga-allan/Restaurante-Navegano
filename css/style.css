@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* resolve o problema do float*/
+.clear{
+    clear: both
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.logo{
+    float: left
+}
+
+/* funciona só na tag nav*/
+nav.menu-desktop{ 
+float: right
+
+}
+/*ul dentro de um nav com essa classe*/
+nav.menu-desktop ul{
+position: relative;
+top: 8px;
+} 
+
+nav.menu-desktop li{
+    padding: 0 10px;
+    font-weight: lighter;
+    display: -webkit-inline-box;
+}
+
+nav.menu-desktop a{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+nav.menu-desktop li.selected{
+    font-weight: bold;
+}
+
+nav.menu-desktop a:hover{
+    text-decoration: underline;
+}
+.logo h2{
+    font-weight: normal;
+}
+.logo img{
+height: 46px;
+}
+/*Banner*/
+
+.main-bg{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    padding: 150px 0;
+    background: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+}
+.main-bg h2{
+    color: rgb(3, 3, 3);
+    font-size: 100px;
+}
+.main-bg p{
+    text-align: left;
+    font-size: 30px;
+    text-align: center;
+margin-top: 15px;
+}
+
+/* cobre com cor o banner*/
+.overlay{
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(250, 249, 249, 0.4);
+}
+/* o que significa >?*/
+.main-bg > .container{
+    position: relative;
+    z-index: 2;
+}
+/*botôes*/
+
+.button{
+    width: 200px;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 50px;
+    transition-duration: 0.6s ;
+}
+
+.button01{
+    background-color: darkgreen;
+    border: 2px solid darkgreen;
+    color: white;
+}
+
+.button01:hover{
+    background-color: yellowgreen;
+    
+
+}
