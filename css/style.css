@@ -198,7 +198,7 @@ section.sobre-equipe > .container{
 .avatar-box{
     margin-top: 15px;
 }
-/*borda aredondada*/
+/*borda arredondada*/
 .img-avatar{
     display: inline-block;
     width: 80px;
@@ -225,4 +225,37 @@ section.sobre-equipe > .container{
     color: dimgray;
     font-weight: normal;
 
+}
+section.inscricao{
+    background-color: darkgreen;
+    padding: 20px 0;
+    
+}
+
+h2.inscricao-texto{
+font-weight: normal;
+color: white;
+}
+
+.inscricao-form input[type=email]{
+    width: calc(100% - 135px);
+    height: 40px;
+    background: white;
+    border: 1px solid rgb(65, 206, 46);
+    display: inline-block;
+}
+.inscricao-form input[type=submit]{
+    width:125px;
+    height:40px;
+    background: rgb(251, 255, 251) ;
+    border:0;
+    font-size: 16px;
+}
+.w50 {
+    width: 50%;
+    float: left;
+}
+
+.center{
+    text-align: center;
 }
