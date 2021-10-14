@@ -157,7 +157,7 @@ background: rgb(14, 95, 14);
     padding: 0 10px;
 }
 
-.box-icone-single h2{
+.box-icone-single h2 span{
     color: darkolivegreen;
     font-size: 40px;
 }
